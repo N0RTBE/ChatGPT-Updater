@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>ChatGPT Updater</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>Microsoft Store के बिना ChatGPT अपडेट करें</value></data>
+  <data name="Installed" xml:space="preserve"><value>इंस्टॉल किया गया</value></data>
+  <data name="Available" xml:space="preserve"><value>उपलब्ध</value></data>
+  <data name="Preparing" xml:space="preserve"><value>तैयारी हो रही है…</value></data>
+  <data name="LaunchCurrent" xml:space="preserve"><value>वर्तमान संस्करण चलाएँ</value></data>
+  <data name="Retry" xml:space="preserve"><value>फिर से प्रयास करें</value></data>
+  <data name="InstallChatGPT" xml:space="preserve"><value>ChatGPT इंस्टॉल करें</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>ChatGPT Updater पहले से चल रहा है।</value></data>
+  <data name="StatusCheckingInstalled" xml:space="preserve"><value>इंस्टॉल किए गए संस्करण की जाँच हो रही है…</value></data>
+  <data name="StatusNotInstalled" xml:space="preserve"><value>ChatGPT इंस्टॉल नहीं है</value></data>
+  <data name="DetailInstallPrompt" xml:space="preserve"><value>नवीनतम वर्शन डाउनलोड करने और सिस्टम इंस्टॉलर खोलने के लिए “ChatGPT इंस्टॉल करें” चुनें।</value></data>
+  <data name="StatusCheckingStore" xml:space="preserve"><value>Microsoft Store की जाँच हो रही है…</value></data>
+  <data name="DetailWillDownload" xml:space="preserve"><value>नवीनतम संस्करण डाउनलोड किया जाएगा।</value></data>
+  <data name="StatusComparingVersions" xml:space="preserve"><value>संस्करणों की तुलना हो रही है…</value></data>
+  <data name="DetailStoreVersion" xml:space="preserve"><value>Microsoft Store: {0}</value></data>
+  <data name="StatusVerifyingPackage" xml:space="preserve"><value>डिजिटल हस्ताक्षर और पैकेज सामग्री सत्यापित हो रही है…</value></data>
+  <data name="ErrorVerificationFailed" xml:space="preserve"><value>डाउनलोड किया गया पैकेज सत्यापन में विफल रहा: {0}</value></data>
+  <data name="StatusDownload" xml:space="preserve"><value>अपडेट डाउनलोड हो रहा है…</value></data>
+  <data name="StatusResumeDownload" xml:space="preserve"><value>अपडेट डाउनलोड फिर से शुरू हो रहा है…</value></data>
+  <data name="DetailDownloadProgress" xml:space="preserve"><value>{1} में से {0}</value></data>
+  <data name="ErrorBadRange" xml:space="preserve"><value>डाउनलोड फिर से शुरू करते समय CDN ने अमान्य रेंज लौटाई।</value></data>
+  <data name="ErrorInvalidPackageUrl" xml:space="preserve"><value>Microsoft Store ने अमान्य पैकेज पता लौटाया।</value></data>
+  <data name="UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="UnitKilobytes" xml:space="preserve"><value>KB</value></data>
+  <data name="UnitMegabytes" xml:space="preserve"><value>MB</value></data>
+  <data name="UnitGigabytes" xml:space="preserve"><value>GB</value></data>
+  <data name="StatusUpToDate" xml:space="preserve"><value>इंस्टॉल किया गया संस्करण नवीनतम है</value></data>
+  <data name="DetailLaunching" xml:space="preserve"><value>ChatGPT शुरू हो रहा है…</value></data>
+  <data name="StatusPackageReady" xml:space="preserve"><value>पैकेज सत्यापित है और अपडेट के लिए तैयार है</value></data>
+  <data name="StatusPackageReadyToInstall" xml:space="preserve"><value>पैकेज सत्यापित है और इंस्टॉल होने के लिए तैयार है</value></data>
+  <data name="DetailInstallerOpened" xml:space="preserve"><value>MSIX इंस्टॉलर खुला है। सिस्टम विंडो में “अपडेट” चुनें।</value></data>
+  <data name="DetailInstallInstallerOpened" xml:space="preserve"><value>MSIX इंस्टॉलर खुला है। सिस्टम विंडो में “इंस्टॉल” चुनें।</value></data>
+  <data name="StatusUpdateCheckFailed" xml:space="preserve"><value>अपडेट की जाँच नहीं हो सकी</value></data>
+  <data name="ErrorNoStorePackages" xml:space="preserve"><value>Microsoft Store ने इस उत्पाद ID के लिए कोई पैकेज नहीं लौटाया।</value></data>
+  <data name="ErrorNoMatchingPackage" xml:space="preserve"><value>Microsoft Store प्रतिक्रिया में संगत x64 OpenAI.Codex पैकेज नहीं है।</value></data>
+  <data name="VerifyTooSmall" xml:space="preserve"><value>फ़ाइल मौजूद नहीं है या बहुत छोटी है (शायद BlockMap डाउनलोड हुआ है)</value></data>
+  <data name="VerifyNoManifest" xml:space="preserve"><value>MSIX पैकेज में AppxManifest.xml नहीं है</value></data>
+  <data name="VerifyNoIdentity" xml:space="preserve"><value>पैकेज मेनिफ़ेस्ट में Identity नहीं है</value></data>
+  <data name="VerifyIdentityMismatch" xml:space="preserve"><value>पैकेज पहचान अपेक्षित OpenAI.Codex पैकेज से मेल नहीं खाती</value></data>
+  <data name="VerifySignature" xml:space="preserve"><value>Windows MSIX डिजिटल हस्ताक्षर सत्यापित नहीं कर सका</value></data>
+</root>

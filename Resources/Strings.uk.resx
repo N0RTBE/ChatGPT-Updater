@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>ChatGPT Updater</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>Оновлення ChatGPT без Microsoft Store</value></data>
+  <data name="Installed" xml:space="preserve"><value>Встановлено</value></data>
+  <data name="Available" xml:space="preserve"><value>Доступно</value></data>
+  <data name="Preparing" xml:space="preserve"><value>Підготовка…</value></data>
+  <data name="LaunchCurrent" xml:space="preserve"><value>Запустити поточну версію</value></data>
+  <data name="Retry" xml:space="preserve"><value>Повторити</value></data>
+  <data name="InstallChatGPT" xml:space="preserve"><value>Установити ChatGPT</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>ChatGPT Updater уже запущено.</value></data>
+  <data name="StatusCheckingInstalled" xml:space="preserve"><value>Перевіряю встановлену версію…</value></data>
+  <data name="StatusNotInstalled" xml:space="preserve"><value>ChatGPT не встановлено</value></data>
+  <data name="DetailInstallPrompt" xml:space="preserve"><value>Натисніть «Установити ChatGPT», щоб завантажити актуальну версію та відкрити системний інсталятор.</value></data>
+  <data name="StatusCheckingStore" xml:space="preserve"><value>Перевіряю Microsoft Store…</value></data>
+  <data name="DetailWillDownload" xml:space="preserve"><value>Буде завантажено актуальну версію.</value></data>
+  <data name="StatusComparingVersions" xml:space="preserve"><value>Порівнюю версії…</value></data>
+  <data name="DetailStoreVersion" xml:space="preserve"><value>Microsoft Store: {0}</value></data>
+  <data name="StatusVerifyingPackage" xml:space="preserve"><value>Перевіряю цифровий підпис і вміст пакета…</value></data>
+  <data name="ErrorVerificationFailed" xml:space="preserve"><value>Завантажений пакет не пройшов перевірку: {0}</value></data>
+  <data name="StatusDownload" xml:space="preserve"><value>Завантажую оновлення…</value></data>
+  <data name="StatusResumeDownload" xml:space="preserve"><value>Продовжую завантаження оновлення…</value></data>
+  <data name="DetailDownloadProgress" xml:space="preserve"><value>{0} із {1}</value></data>
+  <data name="ErrorBadRange" xml:space="preserve"><value>CDN повернув неправильний діапазон під час продовження завантаження.</value></data>
+  <data name="ErrorInvalidPackageUrl" xml:space="preserve"><value>Microsoft Store повернув неприпустиму адресу пакета.</value></data>
+  <data name="UnitBytes" xml:space="preserve"><value>Б</value></data>
+  <data name="UnitKilobytes" xml:space="preserve"><value>КБ</value></data>
+  <data name="UnitMegabytes" xml:space="preserve"><value>МБ</value></data>
+  <data name="UnitGigabytes" xml:space="preserve"><value>ГБ</value></data>
+  <data name="StatusUpToDate" xml:space="preserve"><value>Встановлено актуальну версію</value></data>
+  <data name="DetailLaunching" xml:space="preserve"><value>Запускаю ChatGPT…</value></data>
+  <data name="StatusPackageReady" xml:space="preserve"><value>Пакет перевірено й готово до оновлення</value></data>
+  <data name="StatusPackageReadyToInstall" xml:space="preserve"><value>Пакет перевірено й готово до встановлення</value></data>
+  <data name="DetailInstallerOpened" xml:space="preserve"><value>Відкрито інсталятор MSIX. Натисніть «Оновити» в системному вікні.</value></data>
+  <data name="DetailInstallInstallerOpened" xml:space="preserve"><value>Відкрито інсталятор MSIX. Натисніть «Установити» в системному вікні.</value></data>
+  <data name="StatusUpdateCheckFailed" xml:space="preserve"><value>Не вдалося перевірити оновлення</value></data>
+  <data name="ErrorNoStorePackages" xml:space="preserve"><value>Microsoft Store не повернув пакетів для вказаного Product ID.</value></data>
+  <data name="ErrorNoMatchingPackage" xml:space="preserve"><value>У відповіді Microsoft Store немає сумісного x64-пакета OpenAI.Codex.</value></data>
+  <data name="VerifyTooSmall" xml:space="preserve"><value>файл відсутній або надто малий (можливо, завантажено BlockMap)</value></data>
+  <data name="VerifyNoManifest" xml:space="preserve"><value>у пакеті MSIX відсутній AppxManifest.xml</value></data>
+  <data name="VerifyNoIdentity" xml:space="preserve"><value>у маніфесті пакета відсутній Identity</value></data>
+  <data name="VerifyIdentityMismatch" xml:space="preserve"><value>ідентифікатор пакета не відповідає очікуваному OpenAI.Codex</value></data>
+  <data name="VerifySignature" xml:space="preserve"><value>Windows не вдалося перевірити цифровий підпис MSIX</value></data>
+</root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>ChatGPT Updater</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>不需 Microsoft Store 即可更新 ChatGPT</value></data>
+  <data name="Installed" xml:space="preserve"><value>已安裝</value></data>
+  <data name="Available" xml:space="preserve"><value>可用版本</value></data>
+  <data name="Preparing" xml:space="preserve"><value>正在準備…</value></data>
+  <data name="LaunchCurrent" xml:space="preserve"><value>啟動目前版本</value></data>
+  <data name="Retry" xml:space="preserve"><value>重試</value></data>
+  <data name="InstallChatGPT" xml:space="preserve"><value>安裝 ChatGPT</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>ChatGPT Updater 已在執行。</value></data>
+  <data name="StatusCheckingInstalled" xml:space="preserve"><value>正在檢查已安裝版本…</value></data>
+  <data name="StatusNotInstalled" xml:space="preserve"><value>尚未安裝 ChatGPT</value></data>
+  <data name="DetailInstallPrompt" xml:space="preserve"><value>選取「安裝 ChatGPT」以下載最新版本並開啟系統安裝程式。</value></data>
+  <data name="StatusCheckingStore" xml:space="preserve"><value>正在檢查 Microsoft Store…</value></data>
+  <data name="DetailWillDownload" xml:space="preserve"><value>將下載最新版本。</value></data>
+  <data name="StatusComparingVersions" xml:space="preserve"><value>正在比較版本…</value></data>
+  <data name="DetailStoreVersion" xml:space="preserve"><value>Microsoft Store: {0}</value></data>
+  <data name="StatusVerifyingPackage" xml:space="preserve"><value>正在驗證數位簽章與套件內容…</value></data>
+  <data name="ErrorVerificationFailed" xml:space="preserve"><value>下載的套件未通過驗證：{0}</value></data>
+  <data name="StatusDownload" xml:space="preserve"><value>正在下載更新…</value></data>
+  <data name="StatusResumeDownload" xml:space="preserve"><value>正在繼續下載更新…</value></data>
+  <data name="DetailDownloadProgress" xml:space="preserve"><value>{0} / {1}</value></data>
+  <data name="ErrorBadRange" xml:space="preserve"><value>繼續下載時，CDN 傳回了無效的範圍。</value></data>
+  <data name="ErrorInvalidPackageUrl" xml:space="preserve"><value>Microsoft Store 傳回了無效的套件位址。</value></data>
+  <data name="UnitBytes" xml:space="preserve"><value>位元組</value></data>
+  <data name="UnitKilobytes" xml:space="preserve"><value>KB</value></data>
+  <data name="UnitMegabytes" xml:space="preserve"><value>MB</value></data>
+  <data name="UnitGigabytes" xml:space="preserve"><value>GB</value></data>
+  <data name="StatusUpToDate" xml:space="preserve"><value>已安裝的是最新版本</value></data>
+  <data name="DetailLaunching" xml:space="preserve"><value>正在啟動 ChatGPT…</value></data>
+  <data name="StatusPackageReady" xml:space="preserve"><value>套件已驗證，可以更新</value></data>
+  <data name="StatusPackageReadyToInstall" xml:space="preserve"><value>套件已驗證，可以安裝</value></data>
+  <data name="DetailInstallerOpened" xml:space="preserve"><value>MSIX 安裝程式已開啟。請在系統視窗中選取「更新」。</value></data>
+  <data name="DetailInstallInstallerOpened" xml:space="preserve"><value>MSIX 安裝程式已開啟。請在系統視窗中選取「安裝」。</value></data>
+  <data name="StatusUpdateCheckFailed" xml:space="preserve"><value>無法檢查更新</value></data>
+  <data name="ErrorNoStorePackages" xml:space="preserve"><value>Microsoft Store 未傳回此產品識別碼的套件。</value></data>
+  <data name="ErrorNoMatchingPackage" xml:space="preserve"><value>Microsoft Store 回應中沒有相容的 x64 OpenAI.Codex 套件。</value></data>
+  <data name="VerifyTooSmall" xml:space="preserve"><value>檔案不存在或太小（可能下載了 BlockMap）</value></data>
+  <data name="VerifyNoManifest" xml:space="preserve"><value>MSIX 套件中缺少 AppxManifest.xml</value></data>
+  <data name="VerifyNoIdentity" xml:space="preserve"><value>套件資訊清單中缺少 Identity</value></data>
+  <data name="VerifyIdentityMismatch" xml:space="preserve"><value>套件識別與預期的 OpenAI.Codex 套件不符</value></data>
+  <data name="VerifySignature" xml:space="preserve"><value>Windows 無法驗證 MSIX 數位簽章</value></data>
+</root>

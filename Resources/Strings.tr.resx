@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>ChatGPT Updater</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>ChatGPT’yi Microsoft Store olmadan güncelleyin</value></data>
+  <data name="Installed" xml:space="preserve"><value>Yüklü</value></data>
+  <data name="Available" xml:space="preserve"><value>Kullanılabilir</value></data>
+  <data name="Preparing" xml:space="preserve"><value>Hazırlanıyor…</value></data>
+  <data name="LaunchCurrent" xml:space="preserve"><value>Geçerli sürümü başlat</value></data>
+  <data name="Retry" xml:space="preserve"><value>Yeniden dene</value></data>
+  <data name="InstallChatGPT" xml:space="preserve"><value>ChatGPT’yi yükle</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>ChatGPT Updater zaten çalışıyor.</value></data>
+  <data name="StatusCheckingInstalled" xml:space="preserve"><value>Yüklü sürüm denetleniyor…</value></data>
+  <data name="StatusNotInstalled" xml:space="preserve"><value>ChatGPT yüklü değil</value></data>
+  <data name="DetailInstallPrompt" xml:space="preserve"><value>En son sürümü indirip sistem yükleyicisini açmak için “ChatGPT’yi yükle”yi seçin.</value></data>
+  <data name="StatusCheckingStore" xml:space="preserve"><value>Microsoft Store denetleniyor…</value></data>
+  <data name="DetailWillDownload" xml:space="preserve"><value>En son sürüm indirilecek.</value></data>
+  <data name="StatusComparingVersions" xml:space="preserve"><value>Sürümler karşılaştırılıyor…</value></data>
+  <data name="DetailStoreVersion" xml:space="preserve"><value>Microsoft Store: {0}</value></data>
+  <data name="StatusVerifyingPackage" xml:space="preserve"><value>Dijital imza ve paket içeriği doğrulanıyor…</value></data>
+  <data name="ErrorVerificationFailed" xml:space="preserve"><value>İndirilen paket doğrulamadan geçemedi: {0}</value></data>
+  <data name="StatusDownload" xml:space="preserve"><value>Güncelleme indiriliyor…</value></data>
+  <data name="StatusResumeDownload" xml:space="preserve"><value>Güncelleme indirmesine devam ediliyor…</value></data>
+  <data name="DetailDownloadProgress" xml:space="preserve"><value>{0} / {1}</value></data>
+  <data name="ErrorBadRange" xml:space="preserve"><value>CDN, indirmeye devam edilirken geçersiz bir aralık döndürdü.</value></data>
+  <data name="ErrorInvalidPackageUrl" xml:space="preserve"><value>Microsoft Store geçersiz bir paket adresi döndürdü.</value></data>
+  <data name="UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="UnitKilobytes" xml:space="preserve"><value>KB</value></data>
+  <data name="UnitMegabytes" xml:space="preserve"><value>MB</value></data>
+  <data name="UnitGigabytes" xml:space="preserve"><value>GB</value></data>
+  <data name="StatusUpToDate" xml:space="preserve"><value>Yüklü sürüm güncel</value></data>
+  <data name="DetailLaunching" xml:space="preserve"><value>ChatGPT başlatılıyor…</value></data>
+  <data name="StatusPackageReady" xml:space="preserve"><value>Paket doğrulandı ve güncellemeye hazır</value></data>
+  <data name="StatusPackageReadyToInstall" xml:space="preserve"><value>Paket doğrulandı ve yüklemeye hazır</value></data>
+  <data name="DetailInstallerOpened" xml:space="preserve"><value>MSIX yükleyicisi açıldı. Sistem penceresinde “Güncelle”yi seçin.</value></data>
+  <data name="DetailInstallInstallerOpened" xml:space="preserve"><value>MSIX yükleyicisi açıldı. Sistem penceresinde “Yükle”yi seçin.</value></data>
+  <data name="StatusUpdateCheckFailed" xml:space="preserve"><value>Güncellemeler denetlenemedi</value></data>
+  <data name="ErrorNoStorePackages" xml:space="preserve"><value>Microsoft Store bu Ürün Kimliği için paket döndürmedi.</value></data>
+  <data name="ErrorNoMatchingPackage" xml:space="preserve"><value>Microsoft Store yanıtında uyumlu bir x64 OpenAI.Codex paketi yok.</value></data>
+  <data name="VerifyTooSmall" xml:space="preserve"><value>dosya yok veya çok küçük (bir BlockMap indirilmiş olabilir)</value></data>
+  <data name="VerifyNoManifest" xml:space="preserve"><value>MSIX paketinde AppxManifest.xml yok</value></data>
+  <data name="VerifyNoIdentity" xml:space="preserve"><value>paket bildiriminde Identity yok</value></data>
+  <data name="VerifyIdentityMismatch" xml:space="preserve"><value>paket kimliği beklenen OpenAI.Codex paketiyle eşleşmiyor</value></data>
+  <data name="VerifySignature" xml:space="preserve"><value>Windows, MSIX dijital imzasını doğrulayamadı</value></data>
+</root>

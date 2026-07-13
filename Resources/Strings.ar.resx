@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>ChatGPT Updater</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>تحديث ChatGPT دون Microsoft Store</value></data>
+  <data name="Installed" xml:space="preserve"><value>المثبّت</value></data>
+  <data name="Available" xml:space="preserve"><value>المتاح</value></data>
+  <data name="Preparing" xml:space="preserve"><value>جارٍ التحضير…</value></data>
+  <data name="LaunchCurrent" xml:space="preserve"><value>تشغيل الإصدار الحالي</value></data>
+  <data name="Retry" xml:space="preserve"><value>إعادة المحاولة</value></data>
+  <data name="InstallChatGPT" xml:space="preserve"><value>تثبيت ChatGPT</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>ChatGPT Updater قيد التشغيل بالفعل.</value></data>
+  <data name="StatusCheckingInstalled" xml:space="preserve"><value>جارٍ التحقق من الإصدار المثبّت…</value></data>
+  <data name="StatusNotInstalled" xml:space="preserve"><value>ChatGPT غير مثبّت</value></data>
+  <data name="DetailInstallPrompt" xml:space="preserve"><value>اختر «تثبيت ChatGPT» لتنزيل أحدث إصدار وفتح مثبّت النظام.</value></data>
+  <data name="StatusCheckingStore" xml:space="preserve"><value>جارٍ التحقق من Microsoft Store…</value></data>
+  <data name="DetailWillDownload" xml:space="preserve"><value>سيتم تنزيل أحدث إصدار.</value></data>
+  <data name="StatusComparingVersions" xml:space="preserve"><value>جارٍ مقارنة الإصدارات…</value></data>
+  <data name="DetailStoreVersion" xml:space="preserve"><value>Microsoft Store: {0}</value></data>
+  <data name="StatusVerifyingPackage" xml:space="preserve"><value>جارٍ التحقق من التوقيع الرقمي ومحتويات الحزمة…</value></data>
+  <data name="ErrorVerificationFailed" xml:space="preserve"><value>فشل التحقق من الحزمة التي تم تنزيلها: {0}</value></data>
+  <data name="StatusDownload" xml:space="preserve"><value>جارٍ تنزيل التحديث…</value></data>
+  <data name="StatusResumeDownload" xml:space="preserve"><value>جارٍ استئناف تنزيل التحديث…</value></data>
+  <data name="DetailDownloadProgress" xml:space="preserve"><value>{0} من {1}</value></data>
+  <data name="ErrorBadRange" xml:space="preserve"><value>أعادت شبكة CDN نطاقًا غير صالح أثناء استئناف التنزيل.</value></data>
+  <data name="ErrorInvalidPackageUrl" xml:space="preserve"><value>أعاد Microsoft Store عنوان حزمة غير صالح.</value></data>
+  <data name="UnitBytes" xml:space="preserve"><value>بايت</value></data>
+  <data name="UnitKilobytes" xml:space="preserve"><value>ك.ب</value></data>
+  <data name="UnitMegabytes" xml:space="preserve"><value>م.ب</value></data>
+  <data name="UnitGigabytes" xml:space="preserve"><value>غ.ب</value></data>
+  <data name="StatusUpToDate" xml:space="preserve"><value>الإصدار المثبّت محدّث</value></data>
+  <data name="DetailLaunching" xml:space="preserve"><value>جارٍ تشغيل ChatGPT…</value></data>
+  <data name="StatusPackageReady" xml:space="preserve"><value>تم التحقق من الحزمة وهي جاهزة للتحديث</value></data>
+  <data name="StatusPackageReadyToInstall" xml:space="preserve"><value>تم التحقق من الحزمة وهي جاهزة للتثبيت</value></data>
+  <data name="DetailInstallerOpened" xml:space="preserve"><value>تم فتح مثبّت MSIX. اختر «تحديث» في نافذة النظام.</value></data>
+  <data name="DetailInstallInstallerOpened" xml:space="preserve"><value>تم فتح مثبّت MSIX. اختر «تثبيت» في نافذة النظام.</value></data>
+  <data name="StatusUpdateCheckFailed" xml:space="preserve"><value>تعذّر التحقق من وجود تحديثات</value></data>
+  <data name="ErrorNoStorePackages" xml:space="preserve"><value>لم يُرجع Microsoft Store أي حزم لمعرّف المنتج هذا.</value></data>
+  <data name="ErrorNoMatchingPackage" xml:space="preserve"><value>لا تحتوي استجابة Microsoft Store على حزمة x64 متوافقة من OpenAI.Codex.</value></data>
+  <data name="VerifyTooSmall" xml:space="preserve"><value>الملف مفقود أو صغير جدًا (ربما تم تنزيل BlockMap)</value></data>
+  <data name="VerifyNoManifest" xml:space="preserve"><value>ملف AppxManifest.xml مفقود من حزمة MSIX</value></data>
+  <data name="VerifyNoIdentity" xml:space="preserve"><value>عنصر Identity مفقود من بيان الحزمة</value></data>
+  <data name="VerifyIdentityMismatch" xml:space="preserve"><value>هوية الحزمة لا تطابق حزمة OpenAI.Codex المتوقعة</value></data>
+  <data name="VerifySignature" xml:space="preserve"><value>تعذّر على Windows التحقق من التوقيع الرقمي لحزمة MSIX</value></data>
+</root>

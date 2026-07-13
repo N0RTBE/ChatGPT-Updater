@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>ChatGPT Updater</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>无需 Microsoft Store 即可更新 ChatGPT</value></data>
+  <data name="Installed" xml:space="preserve"><value>已安装</value></data>
+  <data name="Available" xml:space="preserve"><value>可用版本</value></data>
+  <data name="Preparing" xml:space="preserve"><value>正在准备…</value></data>
+  <data name="LaunchCurrent" xml:space="preserve"><value>启动当前版本</value></data>
+  <data name="Retry" xml:space="preserve"><value>重试</value></data>
+  <data name="InstallChatGPT" xml:space="preserve"><value>安装 ChatGPT</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>ChatGPT Updater 已在运行。</value></data>
+  <data name="StatusCheckingInstalled" xml:space="preserve"><value>正在检查已安装版本…</value></data>
+  <data name="StatusNotInstalled" xml:space="preserve"><value>未安装 ChatGPT</value></data>
+  <data name="DetailInstallPrompt" xml:space="preserve"><value>选择“安装 ChatGPT”以下载最新版本并打开系统安装程序。</value></data>
+  <data name="StatusCheckingStore" xml:space="preserve"><value>正在检查 Microsoft Store…</value></data>
+  <data name="DetailWillDownload" xml:space="preserve"><value>将下载最新版本。</value></data>
+  <data name="StatusComparingVersions" xml:space="preserve"><value>正在比较版本…</value></data>
+  <data name="DetailStoreVersion" xml:space="preserve"><value>Microsoft Store: {0}</value></data>
+  <data name="StatusVerifyingPackage" xml:space="preserve"><value>正在验证数字签名和程序包内容…</value></data>
+  <data name="ErrorVerificationFailed" xml:space="preserve"><value>下载的程序包未通过验证：{0}</value></data>
+  <data name="StatusDownload" xml:space="preserve"><value>正在下载更新…</value></data>
+  <data name="StatusResumeDownload" xml:space="preserve"><value>正在继续下载更新…</value></data>
+  <data name="DetailDownloadProgress" xml:space="preserve"><value>{0} / {1}</value></data>
+  <data name="ErrorBadRange" xml:space="preserve"><value>继续下载时，CDN 返回了无效的范围。</value></data>
+  <data name="ErrorInvalidPackageUrl" xml:space="preserve"><value>Microsoft Store 返回了无效的程序包地址。</value></data>
+  <data name="UnitBytes" xml:space="preserve"><value>字节</value></data>
+  <data name="UnitKilobytes" xml:space="preserve"><value>KB</value></data>
+  <data name="UnitMegabytes" xml:space="preserve"><value>MB</value></data>
+  <data name="UnitGigabytes" xml:space="preserve"><value>GB</value></data>
+  <data name="StatusUpToDate" xml:space="preserve"><value>已安装的是最新版本</value></data>
+  <data name="DetailLaunching" xml:space="preserve"><value>正在启动 ChatGPT…</value></data>
+  <data name="StatusPackageReady" xml:space="preserve"><value>程序包已验证，可以更新</value></data>
+  <data name="StatusPackageReadyToInstall" xml:space="preserve"><value>程序包已验证，可以安装</value></data>
+  <data name="DetailInstallerOpened" xml:space="preserve"><value>MSIX 安装程序已打开。请在系统窗口中选择“更新”。</value></data>
+  <data name="DetailInstallInstallerOpened" xml:space="preserve"><value>MSIX 安装程序已打开。请在系统窗口中选择“安装”。</value></data>
+  <data name="StatusUpdateCheckFailed" xml:space="preserve"><value>无法检查更新</value></data>
+  <data name="ErrorNoStorePackages" xml:space="preserve"><value>Microsoft Store 未返回此产品 ID 的程序包。</value></data>
+  <data name="ErrorNoMatchingPackage" xml:space="preserve"><value>Microsoft Store 响应中没有兼容的 x64 OpenAI.Codex 程序包。</value></data>
+  <data name="VerifyTooSmall" xml:space="preserve"><value>文件不存在或过小（可能下载了 BlockMap）</value></data>
+  <data name="VerifyNoManifest" xml:space="preserve"><value>MSIX 程序包中缺少 AppxManifest.xml</value></data>
+  <data name="VerifyNoIdentity" xml:space="preserve"><value>程序包清单中缺少 Identity</value></data>
+  <data name="VerifyIdentityMismatch" xml:space="preserve"><value>程序包标识与预期的 OpenAI.Codex 程序包不匹配</value></data>
+  <data name="VerifySignature" xml:space="preserve"><value>Windows 无法验证 MSIX 数字签名</value></data>
+</root>

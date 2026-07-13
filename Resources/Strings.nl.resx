@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>ChatGPT Updater</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>ChatGPT bijwerken zonder Microsoft Store</value></data>
+  <data name="Installed" xml:space="preserve"><value>Geïnstalleerd</value></data>
+  <data name="Available" xml:space="preserve"><value>Beschikbaar</value></data>
+  <data name="Preparing" xml:space="preserve"><value>Voorbereiden…</value></data>
+  <data name="LaunchCurrent" xml:space="preserve"><value>Huidige versie starten</value></data>
+  <data name="Retry" xml:space="preserve"><value>Opnieuw proberen</value></data>
+  <data name="InstallChatGPT" xml:space="preserve"><value>ChatGPT installeren</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>ChatGPT Updater wordt al uitgevoerd.</value></data>
+  <data name="StatusCheckingInstalled" xml:space="preserve"><value>Geïnstalleerde versie controleren…</value></data>
+  <data name="StatusNotInstalled" xml:space="preserve"><value>ChatGPT is niet geïnstalleerd</value></data>
+  <data name="DetailInstallPrompt" xml:space="preserve"><value>Selecteer ‘ChatGPT installeren’ om de nieuwste versie te downloaden en het systeeminstallatieprogramma te openen.</value></data>
+  <data name="StatusCheckingStore" xml:space="preserve"><value>Microsoft Store controleren…</value></data>
+  <data name="DetailWillDownload" xml:space="preserve"><value>De nieuwste versie wordt gedownload.</value></data>
+  <data name="StatusComparingVersions" xml:space="preserve"><value>Versies vergelijken…</value></data>
+  <data name="DetailStoreVersion" xml:space="preserve"><value>Microsoft Store: {0}</value></data>
+  <data name="StatusVerifyingPackage" xml:space="preserve"><value>Digitale handtekening en pakketinhoud controleren…</value></data>
+  <data name="ErrorVerificationFailed" xml:space="preserve"><value>Het gedownloade pakket kon niet worden geverifieerd: {0}</value></data>
+  <data name="StatusDownload" xml:space="preserve"><value>Update downloaden…</value></data>
+  <data name="StatusResumeDownload" xml:space="preserve"><value>Download van update hervatten…</value></data>
+  <data name="DetailDownloadProgress" xml:space="preserve"><value>{0} van {1}</value></data>
+  <data name="ErrorBadRange" xml:space="preserve"><value>Het CDN heeft een ongeldig bereik geretourneerd bij het hervatten van de download.</value></data>
+  <data name="ErrorInvalidPackageUrl" xml:space="preserve"><value>Microsoft Store heeft een ongeldig pakketadres geretourneerd.</value></data>
+  <data name="UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="UnitKilobytes" xml:space="preserve"><value>KB</value></data>
+  <data name="UnitMegabytes" xml:space="preserve"><value>MB</value></data>
+  <data name="UnitGigabytes" xml:space="preserve"><value>GB</value></data>
+  <data name="StatusUpToDate" xml:space="preserve"><value>De geïnstalleerde versie is actueel</value></data>
+  <data name="DetailLaunching" xml:space="preserve"><value>ChatGPT starten…</value></data>
+  <data name="StatusPackageReady" xml:space="preserve"><value>Het pakket is geverifieerd en klaar voor de update</value></data>
+  <data name="StatusPackageReadyToInstall" xml:space="preserve"><value>Het pakket is geverifieerd en klaar voor installatie</value></data>
+  <data name="DetailInstallerOpened" xml:space="preserve"><value>Het MSIX-installatieprogramma is geopend. Selecteer ‘Bijwerken’ in het systeemvenster.</value></data>
+  <data name="DetailInstallInstallerOpened" xml:space="preserve"><value>Het MSIX-installatieprogramma is geopend. Selecteer ‘Installeren’ in het systeemvenster.</value></data>
+  <data name="StatusUpdateCheckFailed" xml:space="preserve"><value>Kan niet controleren op updates</value></data>
+  <data name="ErrorNoStorePackages" xml:space="preserve"><value>Microsoft Store heeft geen pakketten geretourneerd voor deze product-id.</value></data>
+  <data name="ErrorNoMatchingPackage" xml:space="preserve"><value>Het Microsoft Store-antwoord bevat geen compatibel x64-pakket van OpenAI.Codex.</value></data>
+  <data name="VerifyTooSmall" xml:space="preserve"><value>het bestand ontbreekt of is te klein (mogelijk is een BlockMap gedownload)</value></data>
+  <data name="VerifyNoManifest" xml:space="preserve"><value>AppxManifest.xml ontbreekt in het MSIX-pakket</value></data>
+  <data name="VerifyNoIdentity" xml:space="preserve"><value>Identity ontbreekt in het pakketmanifest</value></data>
+  <data name="VerifyIdentityMismatch" xml:space="preserve"><value>de pakketidentiteit komt niet overeen met het verwachte OpenAI.Codex-pakket</value></data>
+  <data name="VerifySignature" xml:space="preserve"><value>Windows kan de digitale MSIX-handtekening niet verifiëren</value></data>
+</root>

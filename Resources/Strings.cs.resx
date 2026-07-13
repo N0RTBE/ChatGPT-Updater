@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>ChatGPT Updater</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>Aktualizujte ChatGPT bez Microsoft Store</value></data>
+  <data name="Installed" xml:space="preserve"><value>Nainstalováno</value></data>
+  <data name="Available" xml:space="preserve"><value>K dispozici</value></data>
+  <data name="Preparing" xml:space="preserve"><value>Příprava…</value></data>
+  <data name="LaunchCurrent" xml:space="preserve"><value>Spustit aktuální verzi</value></data>
+  <data name="Retry" xml:space="preserve"><value>Zkusit znovu</value></data>
+  <data name="InstallChatGPT" xml:space="preserve"><value>Nainstalovat ChatGPT</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>ChatGPT Updater je již spuštěn.</value></data>
+  <data name="StatusCheckingInstalled" xml:space="preserve"><value>Kontrola nainstalované verze…</value></data>
+  <data name="StatusNotInstalled" xml:space="preserve"><value>ChatGPT není nainstalován</value></data>
+  <data name="DetailInstallPrompt" xml:space="preserve"><value>Vyberte „Nainstalovat ChatGPT“, chcete-li stáhnout nejnovější verzi a otevřít systémový instalační program.</value></data>
+  <data name="StatusCheckingStore" xml:space="preserve"><value>Kontrola Microsoft Store…</value></data>
+  <data name="DetailWillDownload" xml:space="preserve"><value>Bude stažena nejnovější verze.</value></data>
+  <data name="StatusComparingVersions" xml:space="preserve"><value>Porovnávání verzí…</value></data>
+  <data name="DetailStoreVersion" xml:space="preserve"><value>Microsoft Store: {0}</value></data>
+  <data name="StatusVerifyingPackage" xml:space="preserve"><value>Ověřování digitálního podpisu a obsahu balíčku…</value></data>
+  <data name="ErrorVerificationFailed" xml:space="preserve"><value>Stažený balíček neprošel ověřením: {0}</value></data>
+  <data name="StatusDownload" xml:space="preserve"><value>Stahování aktualizace…</value></data>
+  <data name="StatusResumeDownload" xml:space="preserve"><value>Pokračování ve stahování aktualizace…</value></data>
+  <data name="DetailDownloadProgress" xml:space="preserve"><value>{0} z {1}</value></data>
+  <data name="ErrorBadRange" xml:space="preserve"><value>CDN při pokračování stahování vrátila neplatný rozsah.</value></data>
+  <data name="ErrorInvalidPackageUrl" xml:space="preserve"><value>Microsoft Store vrátil neplatnou adresu balíčku.</value></data>
+  <data name="UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="UnitKilobytes" xml:space="preserve"><value>KB</value></data>
+  <data name="UnitMegabytes" xml:space="preserve"><value>MB</value></data>
+  <data name="UnitGigabytes" xml:space="preserve"><value>GB</value></data>
+  <data name="StatusUpToDate" xml:space="preserve"><value>Nainstalovaná verze je aktuální</value></data>
+  <data name="DetailLaunching" xml:space="preserve"><value>Spouštění ChatGPT…</value></data>
+  <data name="StatusPackageReady" xml:space="preserve"><value>Balíček je ověřen a připraven k aktualizaci</value></data>
+  <data name="StatusPackageReadyToInstall" xml:space="preserve"><value>Balíček je ověřen a připraven k instalaci</value></data>
+  <data name="DetailInstallerOpened" xml:space="preserve"><value>Instalační program MSIX je otevřen. V systémovém okně zvolte „Aktualizovat“.</value></data>
+  <data name="DetailInstallInstallerOpened" xml:space="preserve"><value>Instalační program MSIX je otevřen. V systémovém okně zvolte „Nainstalovat“.</value></data>
+  <data name="StatusUpdateCheckFailed" xml:space="preserve"><value>Aktualizace se nepodařilo zkontrolovat</value></data>
+  <data name="ErrorNoStorePackages" xml:space="preserve"><value>Microsoft Store pro toto ID produktu nevrátil žádné balíčky.</value></data>
+  <data name="ErrorNoMatchingPackage" xml:space="preserve"><value>Odpověď Microsoft Store neobsahuje kompatibilní x64 balíček OpenAI.Codex.</value></data>
+  <data name="VerifyTooSmall" xml:space="preserve"><value>soubor chybí nebo je příliš malý (mohl být stažen soubor BlockMap)</value></data>
+  <data name="VerifyNoManifest" xml:space="preserve"><value>v balíčku MSIX chybí AppxManifest.xml</value></data>
+  <data name="VerifyNoIdentity" xml:space="preserve"><value>v manifestu balíčku chybí Identity</value></data>
+  <data name="VerifyIdentityMismatch" xml:space="preserve"><value>identita balíčku neodpovídá očekávanému balíčku OpenAI.Codex</value></data>
+  <data name="VerifySignature" xml:space="preserve"><value>Systém Windows nemohl ověřit digitální podpis MSIX</value></data>
+</root>

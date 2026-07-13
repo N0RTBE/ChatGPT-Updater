@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>ChatGPT Updater</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>Aggiorna ChatGPT senza Microsoft Store</value></data>
+  <data name="Installed" xml:space="preserve"><value>Installata</value></data>
+  <data name="Available" xml:space="preserve"><value>Disponibile</value></data>
+  <data name="Preparing" xml:space="preserve"><value>Preparazione…</value></data>
+  <data name="LaunchCurrent" xml:space="preserve"><value>Avvia la versione corrente</value></data>
+  <data name="Retry" xml:space="preserve"><value>Riprova</value></data>
+  <data name="InstallChatGPT" xml:space="preserve"><value>Installa ChatGPT</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>ChatGPT Updater è già in esecuzione.</value></data>
+  <data name="StatusCheckingInstalled" xml:space="preserve"><value>Verifica della versione installata…</value></data>
+  <data name="StatusNotInstalled" xml:space="preserve"><value>ChatGPT non è installato</value></data>
+  <data name="DetailInstallPrompt" xml:space="preserve"><value>Seleziona «Installa ChatGPT» per scaricare la versione più recente e aprire il programma di installazione di sistema.</value></data>
+  <data name="StatusCheckingStore" xml:space="preserve"><value>Verifica di Microsoft Store…</value></data>
+  <data name="DetailWillDownload" xml:space="preserve"><value>Verrà scaricata la versione più recente.</value></data>
+  <data name="StatusComparingVersions" xml:space="preserve"><value>Confronto delle versioni…</value></data>
+  <data name="DetailStoreVersion" xml:space="preserve"><value>Microsoft Store: {0}</value></data>
+  <data name="StatusVerifyingPackage" xml:space="preserve"><value>Verifica della firma digitale e del contenuto del pacchetto…</value></data>
+  <data name="ErrorVerificationFailed" xml:space="preserve"><value>Il pacchetto scaricato non ha superato la verifica: {0}</value></data>
+  <data name="StatusDownload" xml:space="preserve"><value>Download dell’aggiornamento…</value></data>
+  <data name="StatusResumeDownload" xml:space="preserve"><value>Ripresa del download dell’aggiornamento…</value></data>
+  <data name="DetailDownloadProgress" xml:space="preserve"><value>{0} di {1}</value></data>
+  <data name="ErrorBadRange" xml:space="preserve"><value>La CDN ha restituito un intervallo non valido durante la ripresa del download.</value></data>
+  <data name="ErrorInvalidPackageUrl" xml:space="preserve"><value>Microsoft Store ha restituito un indirizzo del pacchetto non valido.</value></data>
+  <data name="UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="UnitKilobytes" xml:space="preserve"><value>KB</value></data>
+  <data name="UnitMegabytes" xml:space="preserve"><value>MB</value></data>
+  <data name="UnitGigabytes" xml:space="preserve"><value>GB</value></data>
+  <data name="StatusUpToDate" xml:space="preserve"><value>La versione installata è aggiornata</value></data>
+  <data name="DetailLaunching" xml:space="preserve"><value>Avvio di ChatGPT…</value></data>
+  <data name="StatusPackageReady" xml:space="preserve"><value>Il pacchetto è verificato e pronto per l’aggiornamento</value></data>
+  <data name="StatusPackageReadyToInstall" xml:space="preserve"><value>Il pacchetto è verificato e pronto per l’installazione</value></data>
+  <data name="DetailInstallerOpened" xml:space="preserve"><value>Il programma di installazione MSIX è aperto. Seleziona «Aggiorna» nella finestra di sistema.</value></data>
+  <data name="DetailInstallInstallerOpened" xml:space="preserve"><value>Il programma di installazione MSIX è aperto. Seleziona «Installa» nella finestra di sistema.</value></data>
+  <data name="StatusUpdateCheckFailed" xml:space="preserve"><value>Impossibile verificare la disponibilità di aggiornamenti</value></data>
+  <data name="ErrorNoStorePackages" xml:space="preserve"><value>Microsoft Store non ha restituito pacchetti per questo ID prodotto.</value></data>
+  <data name="ErrorNoMatchingPackage" xml:space="preserve"><value>La risposta di Microsoft Store non contiene un pacchetto x64 OpenAI.Codex compatibile.</value></data>
+  <data name="VerifyTooSmall" xml:space="preserve"><value>il file non esiste o è troppo piccolo (potrebbe essere stata scaricata una BlockMap)</value></data>
+  <data name="VerifyNoManifest" xml:space="preserve"><value>AppxManifest.xml non è presente nel pacchetto MSIX</value></data>
+  <data name="VerifyNoIdentity" xml:space="preserve"><value>Identity non è presente nel manifesto del pacchetto</value></data>
+  <data name="VerifyIdentityMismatch" xml:space="preserve"><value>l’identità del pacchetto non corrisponde al pacchetto OpenAI.Codex previsto</value></data>
+  <data name="VerifySignature" xml:space="preserve"><value>Windows non ha potuto verificare la firma digitale del MSIX</value></data>
+</root>

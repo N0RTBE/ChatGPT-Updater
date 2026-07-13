@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>ChatGPT Updater</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>Perbarui ChatGPT tanpa Microsoft Store</value></data>
+  <data name="Installed" xml:space="preserve"><value>Terinstal</value></data>
+  <data name="Available" xml:space="preserve"><value>Tersedia</value></data>
+  <data name="Preparing" xml:space="preserve"><value>Menyiapkan…</value></data>
+  <data name="LaunchCurrent" xml:space="preserve"><value>Jalankan versi saat ini</value></data>
+  <data name="Retry" xml:space="preserve"><value>Coba lagi</value></data>
+  <data name="InstallChatGPT" xml:space="preserve"><value>Instal ChatGPT</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>ChatGPT Updater sudah berjalan.</value></data>
+  <data name="StatusCheckingInstalled" xml:space="preserve"><value>Memeriksa versi yang terinstal…</value></data>
+  <data name="StatusNotInstalled" xml:space="preserve"><value>ChatGPT belum terinstal</value></data>
+  <data name="DetailInstallPrompt" xml:space="preserve"><value>Pilih “Instal ChatGPT” untuk mengunduh versi terbaru dan membuka penginstal sistem.</value></data>
+  <data name="StatusCheckingStore" xml:space="preserve"><value>Memeriksa Microsoft Store…</value></data>
+  <data name="DetailWillDownload" xml:space="preserve"><value>Versi terbaru akan diunduh.</value></data>
+  <data name="StatusComparingVersions" xml:space="preserve"><value>Membandingkan versi…</value></data>
+  <data name="DetailStoreVersion" xml:space="preserve"><value>Microsoft Store: {0}</value></data>
+  <data name="StatusVerifyingPackage" xml:space="preserve"><value>Memverifikasi tanda tangan digital dan isi paket…</value></data>
+  <data name="ErrorVerificationFailed" xml:space="preserve"><value>Paket yang diunduh gagal diverifikasi: {0}</value></data>
+  <data name="StatusDownload" xml:space="preserve"><value>Mengunduh pembaruan…</value></data>
+  <data name="StatusResumeDownload" xml:space="preserve"><value>Melanjutkan unduhan pembaruan…</value></data>
+  <data name="DetailDownloadProgress" xml:space="preserve"><value>{0} dari {1}</value></data>
+  <data name="ErrorBadRange" xml:space="preserve"><value>CDN mengembalikan rentang yang tidak valid saat melanjutkan unduhan.</value></data>
+  <data name="ErrorInvalidPackageUrl" xml:space="preserve"><value>Microsoft Store mengembalikan alamat paket yang tidak valid.</value></data>
+  <data name="UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="UnitKilobytes" xml:space="preserve"><value>KB</value></data>
+  <data name="UnitMegabytes" xml:space="preserve"><value>MB</value></data>
+  <data name="UnitGigabytes" xml:space="preserve"><value>GB</value></data>
+  <data name="StatusUpToDate" xml:space="preserve"><value>Versi yang terinstal sudah terbaru</value></data>
+  <data name="DetailLaunching" xml:space="preserve"><value>Menjalankan ChatGPT…</value></data>
+  <data name="StatusPackageReady" xml:space="preserve"><value>Paket telah diverifikasi dan siap diperbarui</value></data>
+  <data name="StatusPackageReadyToInstall" xml:space="preserve"><value>Paket telah diverifikasi dan siap diinstal</value></data>
+  <data name="DetailInstallerOpened" xml:space="preserve"><value>Penginstal MSIX telah dibuka. Pilih “Perbarui” di jendela sistem.</value></data>
+  <data name="DetailInstallInstallerOpened" xml:space="preserve"><value>Penginstal MSIX telah dibuka. Pilih “Instal” di jendela sistem.</value></data>
+  <data name="StatusUpdateCheckFailed" xml:space="preserve"><value>Tidak dapat memeriksa pembaruan</value></data>
+  <data name="ErrorNoStorePackages" xml:space="preserve"><value>Microsoft Store tidak mengembalikan paket untuk ID Produk ini.</value></data>
+  <data name="ErrorNoMatchingPackage" xml:space="preserve"><value>Respons Microsoft Store tidak berisi paket x64 OpenAI.Codex yang kompatibel.</value></data>
+  <data name="VerifyTooSmall" xml:space="preserve"><value>file tidak ada atau terlalu kecil (BlockMap mungkin telah diunduh)</value></data>
+  <data name="VerifyNoManifest" xml:space="preserve"><value>AppxManifest.xml tidak ada dalam paket MSIX</value></data>
+  <data name="VerifyNoIdentity" xml:space="preserve"><value>Identity tidak ada dalam manifes paket</value></data>
+  <data name="VerifyIdentityMismatch" xml:space="preserve"><value>identitas paket tidak cocok dengan paket OpenAI.Codex yang diharapkan</value></data>
+  <data name="VerifySignature" xml:space="preserve"><value>Windows tidak dapat memverifikasi tanda tangan digital MSIX</value></data>
+</root>

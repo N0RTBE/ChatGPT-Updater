@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>embedded</DebugType>
+    <AssemblyName>ChatGPT Updater</AssemblyName>
+    <AssemblyTitle>ChatGPT Updater</AssemblyTitle>
+    <RootNamespace>ChatGPTUpdater</RootNamespace>
+    <Authors>Svystunov Kostiantyn</Authors>
+    <Copyright>Copyright © 2026 Svystunov Kostiantyn</Copyright>
+    <Product>ChatGPT Updater</Product>
+    <Description>Installs and updates ChatGPT using official Microsoft Store delivery packages.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/N0RTBE/ChatGPT-Updater.git</RepositoryUrl>
+    <NeutralLanguage>en</NeutralLanguage>
+    <ApplicationIcon>Assets\chatgpt-updater.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.6.0</Version>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WPF-UI" Version="4.3.0" />
+    <Resource Include="Assets\chatgpt-updater.png" />
+    <EmbeddedResource Include="LICENSES\WPF-UI-MIT.txt"
+                      LogicalName="WPF-UI-MIT.txt" />
+    <EmbeddedResource Include="LICENSE"
+                      LogicalName="LICENSE" />
+    <None Include="LICENSES\WPF-UI-MIT.txt"
+          CopyToOutputDirectory="PreserveNewest"
+          CopyToPublishDirectory="PreserveNewest" />
+    <None Include="LICENSE"
+          CopyToOutputDirectory="PreserveNewest"
+          CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

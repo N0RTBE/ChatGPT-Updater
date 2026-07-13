@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>ChatGPT Updater</value></data>
+  <data name="Subtitle" xml:space="preserve"><value>Microsoft Store を使わずに ChatGPT を更新</value></data>
+  <data name="Installed" xml:space="preserve"><value>インストール済み</value></data>
+  <data name="Available" xml:space="preserve"><value>利用可能</value></data>
+  <data name="Preparing" xml:space="preserve"><value>準備中…</value></data>
+  <data name="LaunchCurrent" xml:space="preserve"><value>現在のバージョンを起動</value></data>
+  <data name="Retry" xml:space="preserve"><value>再試行</value></data>
+  <data name="InstallChatGPT" xml:space="preserve"><value>ChatGPT をインストール</value></data>
+  <data name="AlreadyRunning" xml:space="preserve"><value>ChatGPT Updater は既に実行中です。</value></data>
+  <data name="StatusCheckingInstalled" xml:space="preserve"><value>インストール済みバージョンを確認しています…</value></data>
+  <data name="StatusNotInstalled" xml:space="preserve"><value>ChatGPT はインストールされていません</value></data>
+  <data name="DetailInstallPrompt" xml:space="preserve"><value>「ChatGPT をインストール」を選択すると、最新バージョンをダウンロードしてシステム インストーラーを開きます。</value></data>
+  <data name="StatusCheckingStore" xml:space="preserve"><value>Microsoft Store を確認しています…</value></data>
+  <data name="DetailWillDownload" xml:space="preserve"><value>最新バージョンをダウンロードします。</value></data>
+  <data name="StatusComparingVersions" xml:space="preserve"><value>バージョンを比較しています…</value></data>
+  <data name="DetailStoreVersion" xml:space="preserve"><value>Microsoft Store: {0}</value></data>
+  <data name="StatusVerifyingPackage" xml:space="preserve"><value>デジタル署名とパッケージの内容を確認しています…</value></data>
+  <data name="ErrorVerificationFailed" xml:space="preserve"><value>ダウンロードしたパッケージの検証に失敗しました: {0}</value></data>
+  <data name="StatusDownload" xml:space="preserve"><value>更新プログラムをダウンロードしています…</value></data>
+  <data name="StatusResumeDownload" xml:space="preserve"><value>更新プログラムのダウンロードを再開しています…</value></data>
+  <data name="DetailDownloadProgress" xml:space="preserve"><value>{1} 中 {0}</value></data>
+  <data name="ErrorBadRange" xml:space="preserve"><value>ダウンロードの再開時に CDN から無効な範囲が返されました。</value></data>
+  <data name="ErrorInvalidPackageUrl" xml:space="preserve"><value>Microsoft Store から無効なパッケージ アドレスが返されました。</value></data>
+  <data name="UnitBytes" xml:space="preserve"><value>B</value></data>
+  <data name="UnitKilobytes" xml:space="preserve"><value>KB</value></data>
+  <data name="UnitMegabytes" xml:space="preserve"><value>MB</value></data>
+  <data name="UnitGigabytes" xml:space="preserve"><value>GB</value></data>
+  <data name="StatusUpToDate" xml:space="preserve"><value>インストール済みバージョンは最新です</value></data>
+  <data name="DetailLaunching" xml:space="preserve"><value>ChatGPT を起動しています…</value></data>
+  <data name="StatusPackageReady" xml:space="preserve"><value>パッケージの検証が完了し、更新の準備ができました</value></data>
+  <data name="StatusPackageReadyToInstall" xml:space="preserve"><value>パッケージの検証が完了し、インストールの準備ができました</value></data>
+  <data name="DetailInstallerOpened" xml:space="preserve"><value>MSIX インストーラーを開きました。システム ウィンドウで「更新」を選択してください。</value></data>
+  <data name="DetailInstallInstallerOpened" xml:space="preserve"><value>MSIX インストーラーを開きました。システム ウィンドウで「インストール」を選択してください。</value></data>
+  <data name="StatusUpdateCheckFailed" xml:space="preserve"><value>更新プログラムを確認できませんでした</value></data>
+  <data name="ErrorNoStorePackages" xml:space="preserve"><value>Microsoft Store からこの製品 ID のパッケージが返されませんでした。</value></data>
+  <data name="ErrorNoMatchingPackage" xml:space="preserve"><value>Microsoft Store の応答に互換性のある x64 OpenAI.Codex パッケージがありません。</value></data>
+  <data name="VerifyTooSmall" xml:space="preserve"><value>ファイルがないか小さすぎます（BlockMap がダウンロードされた可能性があります）</value></data>
+  <data name="VerifyNoManifest" xml:space="preserve"><value>MSIX パッケージに AppxManifest.xml がありません</value></data>
+  <data name="VerifyNoIdentity" xml:space="preserve"><value>パッケージ マニフェストに Identity がありません</value></data>
+  <data name="VerifyIdentityMismatch" xml:space="preserve"><value>パッケージ ID が想定される OpenAI.Codex パッケージと一致しません</value></data>
+  <data name="VerifySignature" xml:space="preserve"><value>Windows は MSIX のデジタル署名を確認できませんでした</value></data>
+</root>
