@@ -32,6 +32,10 @@
   <ItemGroup>
     <PackageReference Include="WPF-UI" Version="4.3.0" />
     <Resource Include="Assets\chatgpt-updater.png" />
+    <EmbeddedResource Include="Assets\chatgpt-updater-light.ico"
+                      LogicalName="ThemeIcons.ChatGPTUpdater.Light.ico" />
+    <EmbeddedResource Include="Assets\chatgpt-updater-dark.ico"
+                      LogicalName="ThemeIcons.ChatGPTUpdater.Dark.ico" />
     <EmbeddedResource Include="LICENSES\WPF-UI-MIT.txt"
                       LogicalName="WPF-UI-MIT.txt" />
     <EmbeddedResource Include="LICENSE"

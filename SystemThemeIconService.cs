@@ -1,12 +1,6 @@
-using System.IO;
-using System.Runtime.InteropServices;
-using System.Security;
 using System.Windows;
-using System.Windows.Interop;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Threading;
-using Microsoft.Win32;
 using Wpf.Ui.Appearance;
 
 namespace ChatGPTUpdater;
@@ -16,23 +10,18 @@ namespace ChatGPTUpdater;
 /// </summary>
 internal sealed class SystemThemeIconService : IDisposable
 {
-    private const int WindowSettingChange = 0x001A;
-    private const int WindowSystemColorChange = 0x0015;
-    private const int WindowThemeChanged = 0x031A;
-    private const string PersonalizeRegistryPath =
-        @"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize";
-
     private static readonly Lazy<ImageSource> LightThemeIcon = new(() => CreateMonochromeIcon(0));
     private static readonly Lazy<ImageSource> DarkThemeIcon = new(() => CreateMonochromeIcon(255));
 
     private readonly Window _window;
-    private HwndSource? _source;
+    private CancellationTokenSource? _shortcutUpdateCancellation;
     private bool _disposed;
 
     public SystemThemeIconService(Window window)
     {
         _window = window;
         _window.SourceInitialized += Window_SourceInitialized;
+        ApplicationThemeManager.Changed += ApplicationThemeManager_Changed;
         ApplyIcon();
     }
 
@@ -43,40 +32,20 @@ internal sealed class SystemThemeIconService : IDisposable
 
         _disposed = true;
         _window.SourceInitialized -= Window_SourceInitialized;
-        _source?.RemoveHook(WindowProcedure);
-        _source = null;
+        ApplicationThemeManager.Changed -= ApplicationThemeManager_Changed;
+        _shortcutUpdateCancellation?.Cancel();
+        _shortcutUpdateCancellation?.Dispose();
+        _shortcutUpdateCancellation = null;
     }
 
     private void Window_SourceInitialized(object? sender, EventArgs e)
     {
-        var handle = new WindowInteropHelper(_window).Handle;
-        _source = HwndSource.FromHwnd(handle);
-        _source?.AddHook(WindowProcedure);
         ApplyIcon();
     }
 
-    private IntPtr WindowProcedure(
-        IntPtr windowHandle,
-        int message,
-        IntPtr wordParameter,
-        IntPtr longParameter,
-        ref bool handled)
+    private void ApplicationThemeManager_Changed(ApplicationTheme currentTheme, Color systemAccent)
     {
-        var immersiveColorChanged = message == WindowSettingChange &&
-                                    longParameter != IntPtr.Zero &&
-                                    string.Equals(
-                                        Marshal.PtrToStringUni(longParameter),
-                                        "ImmersiveColorSet",
-                                        StringComparison.Ordinal);
-
-        if (message == WindowThemeChanged || message == WindowSystemColorChange || immersiveColorChanged)
-        {
-            _ = _window.Dispatcher.BeginInvoke(
-                DispatcherPriority.Background,
-                ApplyIcon);
-        }
-
-        return IntPtr.Zero;
+        ApplyIcon();
     }
 
     private void ApplyIcon()
@@ -84,23 +53,38 @@ internal sealed class SystemThemeIconService : IDisposable
         if (_disposed)
             return;
 
-        _window.Icon = UsesLightSystemTheme()
-            ? LightThemeIcon.Value
-            : DarkThemeIcon.Value;
+        var usesLightTheme = UsesLightSystemTheme();
+        var icon = usesLightTheme ? LightThemeIcon.Value : DarkThemeIcon.Value;
+
+        // Setting the same ImageSource before and after HWND creation does not always
+        // make Explorer refresh WM_SETICON, so force the native icon property to change.
+        _window.Icon = null;
+        _window.Icon = icon;
+
+        UpdateShortcutIcon(usesLightTheme);
     }
 
     private static bool UsesLightSystemTheme()
     {
-        try
+        return ApplicationThemeManager.GetSystemTheme() switch
         {
-            var value = Registry.GetValue(PersonalizeRegistryPath, "SystemUsesLightTheme", 1);
-            return value is not int integer || integer != 0;
-        }
-        catch (Exception exception) when (
-            exception is IOException or UnauthorizedAccessException or SecurityException)
-        {
-            return ApplicationThemeManager.GetAppTheme() != ApplicationTheme.Dark;
-        }
+            SystemTheme.Dark or SystemTheme.CapturedMotion or SystemTheme.Glow or
+                SystemTheme.HCBlack or SystemTheme.HC1 or SystemTheme.HC2 => false,
+            SystemTheme.Light or SystemTheme.Flow or SystemTheme.Sunrise or SystemTheme.HCWhite => true,
+            _ => ApplicationThemeManager.GetAppTheme() != ApplicationTheme.Dark
+        };
+    }
+
+    private void UpdateShortcutIcon(bool usesLightTheme)
+    {
+        _shortcutUpdateCancellation?.Cancel();
+        _shortcutUpdateCancellation?.Dispose();
+        _shortcutUpdateCancellation = new CancellationTokenSource();
+        var cancellationToken = _shortcutUpdateCancellation.Token;
+
+        _ = Task.Run(
+            () => ShortcutIconSynchronizer.UpdateExistingShortcuts(usesLightTheme, cancellationToken),
+            cancellationToken);
     }
 
     private static ImageSource CreateMonochromeIcon(byte colorChannel)
