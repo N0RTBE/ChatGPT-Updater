@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Assets/chatgpt-updater-readme.svg" alt="ChatGPT Updater logo" width="128" height="128">
+  <img src="Assets/chatgpt-updater-readme.png" alt="ChatGPT Updater logo" width="128" height="128">
 </p>
 
 <h1 align="center">ChatGPT Updater</h1>
