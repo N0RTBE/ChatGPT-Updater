@@ -13,6 +13,7 @@ namespace ChatGPTUpdater;
 public partial class MainWindow
 {
     private readonly UpdaterService _updater = new();
+    private readonly SystemThemeIconService _systemThemeIcon;
     private CancellationTokenSource? _cancellation;
     private bool _canLaunchInstalled;
 
@@ -20,6 +21,7 @@ public partial class MainWindow
     {
         SystemThemeWatcher.Watch(this);
         InitializeComponent();
+        _systemThemeIcon = new SystemThemeIconService(this);
         FlowDirection = LocalizationService.IsRightToLeft
             ? FlowDirection.RightToLeft
             : FlowDirection.LeftToRight;
@@ -133,6 +135,7 @@ public partial class MainWindow
 
     private void Window_Closing(object? sender, CancelEventArgs e)
     {
+        _systemThemeIcon.Dispose();
         _cancellation?.Cancel();
         _cancellation?.Dispose();
         _cancellation = null;
