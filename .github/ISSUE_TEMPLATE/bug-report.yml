@@ -1,0 +1,102 @@
+name: Bug report
+description: Report a reproducible problem with ChatGPT Updater
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. Please use the latest release and remove personal or sensitive information from screenshots and logs.
+
+  - type: input
+    id: updater-version
+    attributes:
+      label: ChatGPT Updater version
+      description: The version shown in the executable properties or release name.
+      placeholder: "1.6.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: windows-version
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+    validations:
+      required: true
+
+  - type: input
+    id: windows-build
+    attributes:
+      label: Windows build
+      description: Run `winver` and enter the OS build shown in the dialog.
+      placeholder: "26100.4652"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: chatgpt-status
+    attributes:
+      label: ChatGPT installation status
+      options:
+        - Installed
+        - Not installed
+    validations:
+      required: true
+
+  - type: input
+    id: chatgpt-versions
+    attributes:
+      label: ChatGPT versions
+      description: Enter the installed and available versions shown by the updater, if available.
+      placeholder: "Installed: 26.707.3748.0; Available: 26.707.8479.0"
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem description
+      description: Clearly describe what happened and what you expected to happen.
+      placeholder: Tell us what went wrong.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest sequence of steps that consistently reproduces the problem.
+      placeholder: |
+        1. Start ChatGPT Updater
+        2. Wait for the version check
+        3. Click ...
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error details
+      description: Paste the complete error message shown by the application. Remove tokens, signed download URLs, usernames, and other sensitive data.
+      render: shell
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or additional context
+      description: Drag and drop screenshots here if they help explain the problem.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I am using the latest ChatGPT Updater release.
+          required: true
+        - label: I searched existing issues and did not find a duplicate.
+          required: true
+        - label: I removed personal and sensitive information from this report.
+          required: true

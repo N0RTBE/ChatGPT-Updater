@@ -1,0 +1,50 @@
+name: Feature request
+description: Suggest an improvement for ChatGPT Updater
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve ChatGPT Updater. Describe the user problem first, then explain your proposed solution.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or limitation
+      description: What problem are you trying to solve? Who is affected by it?
+      placeholder: Describe the current limitation or workflow problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe how you would like ChatGPT Updater to behave.
+      placeholder: Describe the desired behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe any workarounds or alternative solutions you have considered.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add screenshots, mockups, or other details that may help explain the request.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and did not find a similar request.
+          required: true
+        - label: This request is related to ChatGPT Updater rather than the ChatGPT application itself.
+          required: true
