@@ -65,11 +65,12 @@
                         Padding="7"
                         CornerRadius="12"
                         BorderThickness="1"
-                        BorderBrush="{DynamicResource SystemAccentColorBrush}">
+                        Background="{DynamicResource AccentFillColorDefaultBrush}"
+                        BorderBrush="{DynamicResource AccentControlElevationBorderBrush}">
                     <local:ThemeAwareImageIcon
                         Width="40" Height="40"
                         Source="pack://application:,,,/Assets/chatgpt-updater.png"
-                        Foreground="{DynamicResource TextFillColorPrimaryBrush}"
+                        Foreground="{DynamicResource TextOnAccentFillColorPrimaryBrush}"
                         RenderOptions.BitmapScalingMode="HighQuality" />
                 </Border>
                 <StackPanel Grid.Column="2" VerticalAlignment="Center">
