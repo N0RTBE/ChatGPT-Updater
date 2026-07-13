@@ -56,15 +56,22 @@
 
             <Grid Grid.Row="0">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="52" />
+                    <ColumnDefinition Width="56" />
                     <ColumnDefinition Width="16" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <local:ThemeAwareImageIcon Grid.Column="0"
-                                           Width="52" Height="52"
-                                           Source="pack://application:,,,/Assets/chatgpt-updater.png"
-                                           Foreground="{DynamicResource TextFillColorPrimaryBrush}"
-                                           RenderOptions.BitmapScalingMode="HighQuality" />
+                <Border Grid.Column="0"
+                        Width="56" Height="56"
+                        Padding="7"
+                        CornerRadius="12"
+                        BorderThickness="1"
+                        BorderBrush="{DynamicResource SystemAccentColorBrush}">
+                    <local:ThemeAwareImageIcon
+                        Width="40" Height="40"
+                        Source="pack://application:,,,/Assets/chatgpt-updater.png"
+                        Foreground="{DynamicResource TextFillColorPrimaryBrush}"
+                        RenderOptions.BitmapScalingMode="HighQuality" />
+                </Border>
                 <StackPanel Grid.Column="2" VerticalAlignment="Center">
                     <TextBlock Text="{local:Loc WindowTitle}"
                                FontSize="22"
