@@ -28,9 +28,10 @@ ChatGPT Updater was created for these situations. It downloads the official Chat
 
 ## Usage
 
-1. Download `ChatGPT Updater.exe` from the [Releases](https://github.com/N0RTBE/ChatGPT-Updater/releases) page.
-2. Run the application.
-3. If a new version is available, wait for the download and confirm the installation in the Windows system dialog.
+1. Download the latest `ChatGPT-Updater-vX.Y.Z-win-x64.zip` archive from the [Releases](https://github.com/N0RTBE/ChatGPT-Updater/releases) page.
+2. Extract the archive.
+3. Run `ChatGPT Updater.exe`.
+4. If a new version is available, wait for the download and confirm the installation in the Windows system dialog.
 
 ChatGPT Updater requires Windows 10 or Windows 11 on an x64 system.
 
