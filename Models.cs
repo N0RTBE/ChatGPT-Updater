@@ -19,5 +19,4 @@ internal enum UpdaterAction
 internal sealed record UpdaterResult(
     UpdaterAction Action,
     Version? InstalledVersion,
-    Version AvailableVersion,
     string? PackagePath = null);

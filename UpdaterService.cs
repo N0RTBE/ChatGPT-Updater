@@ -58,10 +58,10 @@ internal sealed partial class UpdaterService
             cancellationToken);
 
         if (installed is not null && installed >= package.Version)
-            return new UpdaterResult(UpdaterAction.LaunchInstalled, installed, package.Version);
+            return new UpdaterResult(UpdaterAction.LaunchInstalled, installed);
 
         if (installed is null && !installIfMissing)
-            return new UpdaterResult(UpdaterAction.OfferInstall, null, package.Version);
+            return new UpdaterResult(UpdaterAction.OfferInstall, null);
 
         var safeFileName = $"OpenAI.Codex_{package.Version}_x64__2p2nqsd0c76g0.msix";
         var destination = Path.Combine(downloadDirectory, safeFileName);
@@ -100,7 +100,7 @@ internal sealed partial class UpdaterService
             }
         }
 
-        return new UpdaterResult(UpdaterAction.OpenInstaller, installed, package.Version, destination);
+        return new UpdaterResult(UpdaterAction.OpenInstaller, installed, destination);
     }
 
     public static async Task<bool> IsInstalledAsync()

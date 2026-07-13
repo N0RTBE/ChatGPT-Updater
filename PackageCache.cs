@@ -25,7 +25,7 @@ internal sealed partial class PackageCache
         return downloadDirectory;
     }
 
-    public static Task<CacheCleanupResult> CleanupAsync(
+    public static Task CleanupAsync(
         string downloadDirectory,
         Version? installedVersion,
         Version? availableVersion,
@@ -39,7 +39,7 @@ internal sealed partial class PackageCache
                 cancellationToken),
             cancellationToken);
 
-    internal static CacheCleanupResult Cleanup(
+    internal static void Cleanup(
         string downloadDirectory,
         Version? installedVersion,
         Version? availableVersion,
@@ -47,10 +47,7 @@ internal sealed partial class PackageCache
         CancellationToken cancellationToken)
     {
         if (!Directory.Exists(downloadDirectory))
-            return default;
-
-        var removedFiles = 0;
-        long releasedBytes = 0;
+            return;
 
         foreach (var path in Directory.EnumerateFiles(downloadDirectory))
         {
@@ -71,18 +68,13 @@ internal sealed partial class PackageCache
 
             try
             {
-                var length = new FileInfo(path).Length;
                 File.Delete(path);
-                removedFiles++;
-                releasedBytes += length;
             }
             catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
             {
                 // App Installer may still hold the package. A later launch retries cleanup.
             }
         }
-
-        return new CacheCleanupResult(removedFiles, releasedBytes);
     }
 
     [GeneratedRegex(
@@ -90,5 +82,3 @@ internal sealed partial class PackageCache
         RegexOptions.CultureInvariant | RegexOptions.IgnoreCase)]
     private static partial Regex ManagedPackageRegex();
 }
-
-internal readonly record struct CacheCleanupResult(int RemovedFiles, long ReleasedBytes);

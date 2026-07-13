@@ -36,10 +36,6 @@
                       LogicalName="ThemeIcons.ChatGPTUpdater.Light.ico" />
     <EmbeddedResource Include="Assets\chatgpt-updater-dark.ico"
                       LogicalName="ThemeIcons.ChatGPTUpdater.Dark.ico" />
-    <EmbeddedResource Include="LICENSES\WPF-UI-MIT.txt"
-                      LogicalName="WPF-UI-MIT.txt" />
-    <EmbeddedResource Include="LICENSE"
-                      LogicalName="LICENSE" />
     <None Include="LICENSES\WPF-UI-MIT.txt"
           CopyToOutputDirectory="PreserveNewest"
           CopyToPublishDirectory="PreserveNewest" />
