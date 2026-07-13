@@ -38,6 +38,7 @@
                      FlowDirection="LeftToRight">
             <ui:TitleBar.Icon>
                 <local:ThemeAwareImageIcon
+                    Width="16" Height="16"
                     Source="pack://application:,,,/Assets/chatgpt-updater.png"
                     Foreground="{DynamicResource TextFillColorPrimaryBrush}" />
             </ui:TitleBar.Icon>
@@ -60,19 +61,12 @@
                     <ColumnDefinition Width="16" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <Border Grid.Column="0"
-                        Width="56" Height="56"
-                        Padding="7"
-                        CornerRadius="12"
-                        BorderThickness="1"
-                        Background="{DynamicResource AccentFillColorDefaultBrush}"
-                        BorderBrush="{DynamicResource AccentControlElevationBorderBrush}">
-                    <local:ThemeAwareImageIcon
-                        Width="40" Height="40"
-                        Source="pack://application:,,,/Assets/chatgpt-updater.png"
-                        Foreground="{DynamicResource TextOnAccentFillColorPrimaryBrush}"
-                        RenderOptions.BitmapScalingMode="HighQuality" />
-                </Border>
+                <local:ThemeAwareImageIcon
+                    Grid.Column="0"
+                    Width="56" Height="56"
+                    Source="pack://application:,,,/Assets/chatgpt-updater.png"
+                    Foreground="{DynamicResource TextFillColorPrimaryBrush}"
+                    RenderOptions.BitmapScalingMode="HighQuality" />
                 <StackPanel Grid.Column="2" VerticalAlignment="Center">
                     <TextBlock Text="{local:Loc WindowTitle}"
                                FontSize="22"
