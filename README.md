@@ -10,11 +10,11 @@
 
 ## Why ChatGPT Updater exists
 
-Installing or updating ChatGPT through Microsoft Store is not always straightforward. The Store may be disabled by an organization, unavailable on a managed device, removed from a customized Windows installation, or unable to complete downloads because of a broken cache, a stuck update queue, sign-in problems, or other Store client errors. In these cases, ChatGPT can remain installed but stop receiving new versions, and reinstalling it through the usual Store interface may not be practical.
+Installing ChatGPT for the first time - or keeping an existing installation up to date - is not always straightforward when it depends on Microsoft Store. The Store may be disabled by an organization, unavailable on a managed device, removed from a customized Windows installation, or unable to complete downloads because of a broken cache, a stuck update queue, sign-in problems, or other Store client errors. As a result, some users cannot install ChatGPT at all, while others have an existing installation that no longer receives updates.
 
-ChatGPT Updater provides a focused alternative for the ChatGPT package. It checks the version currently installed on the computer, resolves the latest package published through Microsoft Store, downloads that official MSIX package directly from Microsoft delivery servers, verifies its identity and digital signature, and then opens the standard Windows installation dialog. If ChatGPT is already up to date, the updater simply launches it.
+ChatGPT Updater handles both situations. When ChatGPT is not installed, it finds and downloads the latest official release, then lets the user confirm its installation through Windows. When ChatGPT is already installed, the updater compares its version with the latest release available through Microsoft Store. It downloads a newer version when one is available or launches ChatGPT immediately when the installed version is already up to date. Every package comes directly from Microsoft delivery servers and is validated for the expected identity, version, architecture, and digital signature before it is handed over to Windows for installation.
 
-The application does not modify Microsoft Store, remove device-management restrictions, or bypass Windows security controls. It can help when the Store interface or its update workflow is the problem, but installation still depends on Windows allowing the official package and on the required Microsoft services being reachable.
+The application does not modify Microsoft Store, remove device-management restrictions, or bypass Windows security controls. It provides an alternative to the Store interface for installing and updating ChatGPT, but either operation still depends on Windows allowing the official package and on the required Microsoft services being reachable.
 
 ## Features
 
@@ -34,6 +34,8 @@ The application does not modify Microsoft Store, remove device-management restri
 2. Extract the archive.
 3. Run `ChatGPT Updater.exe`.
 4. If a new version is available, wait for the download and confirm the installation in the Windows system dialog.
+
+You can also use ChatGPT Updater as your regular ChatGPT launcher. Each time it starts, it checks for a newer version first and opens ChatGPT immediately when the installed version is already up to date.
 
 ChatGPT Updater requires Windows 10 or Windows 11 on an x64 system.
 
